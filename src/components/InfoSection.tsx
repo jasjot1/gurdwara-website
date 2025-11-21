@@ -32,7 +32,7 @@ export default function InfoSection() {
                         </div>
                         <h3 className="text-xl font-semibold text-secondary mb-2">Opening Hours</h3>
                         <p className="text-gray-600">
-                            Daily: 4:00 AM - 9:00 PM
+                            Daily: 4:30 AM - 9:00 PM
                         </p>
                         <p className="text-gray-500 text-sm mt-2">
                             Open to all, everyday.

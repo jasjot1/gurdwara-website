@@ -1,4 +1,10 @@
 import { MapPin, Phone, Mail } from "lucide-react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Contact Us",
+    description: "Get in touch with Gurdwara Guru Maneyo Granth in Yuba City. Find our address, phone number, and directions.",
+};
 
 export default function ContactPage() {
     return (
