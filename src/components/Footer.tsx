@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MapPin, Phone, Mail, Facebook, Instagram } from "lucide-react";
+import { MapPin, Phone, Mail, Facebook, Instagram, Youtube, Video } from "lucide-react";
 
 export default function Footer() {
     return (
@@ -9,9 +9,29 @@ export default function Footer() {
                     {/* About */}
                     <div>
                         <h3 className="text-xl font-bold mb-4 text-primary">Gurdwara Guru Maneyo Granth</h3>
-                        <p className="text-gray-300 mb-4">
+                        <p className="text-gray-300 mb-6">
                             A place of worship, learning, and community service. We welcome everyone to join us in prayer and sewa.
                         </p>
+                        <div className="flex space-x-4">
+                            <a
+                                href="https://www.youtube.com/@GurdwaraGuruManeyoGranth"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-gray-400 hover:text-[#FF0000] transition-colors"
+                                aria-label="YouTube Channel"
+                            >
+                                <Youtube size={24} />
+                            </a>
+                            <a
+                                href="https://www.tiktok.com/@gurumaneyogranth"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-gray-400 hover:text-white transition-colors"
+                                aria-label="TikTok Profile"
+                            >
+                                <Video size={24} />
+                            </a>
+                        </div>
                     </div>
 
                     {/* Quick Links */}
